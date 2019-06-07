@@ -52,7 +52,7 @@ export default class Portfolio extends Component{
             </div>
             <div className="link-box">
               <a href="https://www.ambii.io/">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
+              <a href="#0" className="popup-modal-dismiss">Close</a>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ export default class Portfolio extends Component{
             </div>
             <div className="link-box">
               <a href="https://github.com/liamLacuna/EveryReceipt">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
+              <a href="#0" className="popup-modal-dismiss">Close</a>
             </div>
           </div>
         </div> 

@@ -75,18 +75,15 @@ export default class Resume extends Component{
             </p>
             <div className="bars">
               <ul className="skills">
-                <li><span className="bar-expand css" /><em>CSS</em></li>
-                <li><span className="bar-expand html5" /><em>HTML5</em></li>
+                <li><span className="bar-expand css" /><em>CSS/CSS3</em></li>
+                <li><span className="bar-expand html5" /><em>HTML/HTML5</em></li>
+                <li><span className="bar-expand es6" /><em>JavaScript(ES6)</em></li>
+                <li><span className="bar-expand angular" /><em>Angular</em></li>
+                <li><span className="bar-expand java" /><em>Java</em></li>
               </ul>
             </div>
           </div> 
         </div> 
-
-        {/* <div className="row download">
-          <p>
-          <a href="https://drive.google.com/file/d/1Jp3DO_FaqI7Er3hWSThtvOkDPmk2b8Ja/view?usp=sharing" className="button" download><i className="fa fa-download" />PDF Format</a>
-          </p>
-        </div> */}
       	</section> 
       </React.Fragment>
     );

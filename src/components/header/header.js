@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+
 export default class Header extends Component{
   render() {
     let resumeData = this.props.resumeData;
@@ -16,14 +19,14 @@ export default class Header extends Component{
             </ul>
           </nav> 
           <div className="row banner">
-            {/* <img className="profile-pic" src="images/profile1.jpg" alt="profile" /> */}
+            <img className="profile-pic" src="images/profile1.jpg" alt="profile" />
             <div className="banner-text">
               <h1 className="responsive-headline"> {resumeData.name} </h1>
               <h3> {resumeData.role} </h3>
               <hr />
               <ul className="social">
-                <li><a href="https://www.linkedin.com/in/yangliliam/"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="https://github.com/liamLacuna"><i className="fa fa-github" /></a></li>
+                <li><a href="https://www.linkedin.com/in/yangliliam/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                <li><a href="https://github.com/liamLacuna"><FontAwesomeIcon icon={faGithub} /></a></li>
               </ul>
             </div>
           </div>

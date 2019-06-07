@@ -32,15 +32,22 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
+}
+header .banner .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 26px 'calligraffittiregular', sans-serif;
+   font-weight: bold;
    color: #fff;
-   letter-spacing: -2px;
+   letter-spacing: -.03em;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
@@ -185,29 +192,23 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
-#about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
-}
-#about .contact-details { width: 41.66667%; }
+
 #about .download {
-   width: 58.33333%;
+   width: min-content;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
-   margin-top: 6px;
+   text-align: center;
+   margin-top: 20px;
    background: #444;
 }
 #about .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
+#about .email {
+   width: 138.48px;
 }
 
 
@@ -305,23 +306,8 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
 .css {
-  	width: 70%;
+  	width: 60%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
@@ -330,60 +316,62 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.reactjs {
-  	width: 80%;
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
+.es6 {
+   width: 40%;
+   -moz-animation: es6 2s ease;
+   -webkit-animation: es6 2s ease;
+}
+.angular {
+   width: 60%;
+   -moz-animation: angular 2s ease;
+   -webkit-animation: es6 2s ease;
+}
+.java {
+   width: 40%;
+   -moz-animation: java 2s ease;
+   -webkit-animation: java 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+
 @-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
 @-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
 }
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-moz-keyframes es6 {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
 }
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+@-moz-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-moz-keyframes java {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
 }
 @-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
 }
 @-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
 }
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
+@-webkit-keyframes es6 {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+}
+@-webkit-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+}
+@-webkit-keyframes java {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
 }
 
 /* ------------------------------------------------------------------ */
