@@ -29,6 +29,22 @@ export default class Resume extends Component{
             <h1><span>Work</span></h1>
           </div>
           <div className="nine columns main-col">
+          <div className="row item">
+              <div className="twelve columns">
+                <h3><a href="https://www.moodysanalytics.com/">Moody's Analytics</a></h3>
+                <p className="info">Software Engineering Intern<span>•</span> <em className="date">June 2019 - August 2019</em></p>
+                <p>
+									<span>•</span> Used Java Swing to build a hotfix packager generator, 
+                  assisted developers spending less time finishing hotfix requests, from about 15 minutes to less than 5 minutes.
+									<br/>
+									<span>•</span> WUsed Elasticsearch, Logstash and FileBeat to collect and analyze the log files that produced by
+                  customer software analytics and presented as Kibana.
+									<br/>
+									<span>•</span> Created the Java Elasticsearch Client that has the ability to generate the report by the time, 
+                  logging levels and full-text search, as well as having the option to save the report locally or sharing via Email.
+                </p>
+							</div>
+            </div>
             <div className="row item">
               <div className="twelve columns">
                 <h3><a href="https://www.ambii.io/">Ambii</a></h3>

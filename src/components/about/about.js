@@ -17,7 +17,7 @@ export default class About extends Component{
             <p>Free free to download the resume in PDF format, or email me if you have any questions</p>
           </div> 
           <div className="three columns download">
-            <a href="https://drive.google.com/file/d/1Jp3DO_FaqI7Er3hWSThtvOkDPmk2b8Ja/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1JQa5eucQJlzPEqCtLgGN79m-zu8b7f6d/view?usp=sharing" 
             className="button" download>Resume PDF
             </a>
             <a href="mailto:liamli1996@gmail.com" className="button email">Email Me</a>
