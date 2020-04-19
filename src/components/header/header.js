@@ -29,6 +29,9 @@ export default class Header extends Component{
                 <li><a href="https://github.com/liamLacuna"><FontAwesomeIcon icon={faGithub} /></a></li>
               </ul>
             </div>
+            <div className="blog-content">
+              <p>Check out my blog at <strong><a href="https://www.liamliblog.me">here</a></strong></p>
+            </div> 
           </div>
           <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>

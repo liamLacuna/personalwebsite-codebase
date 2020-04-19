@@ -13,7 +13,7 @@ export default class Footer extends Component{
               <li><a href="https://github.com/liamLacuna"><FontAwesomeIcon icon={faGithub} /></a></li>
             </ul>
             <ul className="copyright">
-              <li>© Copyright 2019 Yang(Liam) Li</li>
+              <li>© Copyright 2020 Yang(Liam) Li</li>
             </ul>
           </div>
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

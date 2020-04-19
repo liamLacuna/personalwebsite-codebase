@@ -14,11 +14,6 @@ export default class Resume extends Component{
               <div className="twelve columns">
                 <h3>San Jose State University</h3>
                 <p className="info">B.S. Degree in Software Engineering <span>•</span> <em className="date">Dec 2020</em></p>
-                <p>
-									Relevant Course: Advanced C++ Programming, Oriented-Object Design, 
-									Introduction to Data Structure, Algorithm and Data Structure, Operation System, 
-									Software Quality Testing
-                </p>
               </div>
             </div>
           </div>
@@ -31,33 +26,45 @@ export default class Resume extends Component{
           <div className="nine columns main-col">
           <div className="row item">
               <div className="twelve columns">
+                <h3><a href="https://www.intel.com/">Intel Corporation</a></h3>
+                <p className="info">Software Engineering Intern<span>•</span> <em className="date">June 2019 - August 2019</em></p>
+                <p>
+									<span>•</span> Built a Flask Microservice API under Docker Container that run within the 
+                  internal network, documented using Swagger.
+                </p>
+							</div>
+            </div>
+          <div className="row item">
+              <div className="twelve columns">
                 <h3><a href="https://www.moodysanalytics.com/">Moody's Analytics</a></h3>
                 <p className="info">Software Engineering Intern<span>•</span> <em className="date">June 2019 - August 2019</em></p>
                 <p>
-									<span>•</span> Used Java Swing to build a hotfix packager generator, 
-                  assisted developers spending less time finishing hotfix requests, from about 15 minutes to less than 5 minutes.
+									<span>•</span> Built a hotfix packager generator to reduce the time required 
+                  to finish hotfix requests from 15 to 5 minutes.
 									<br/>
-									<span>•</span> WUsed Elasticsearch, Logstash and FileBeat to collect and analyze the log files that produced by
-                  customer software analytics and presented as Kibana.
+									<span>•</span> Collected and analyzed the log files produced by customer software 
+                  analytics using Elasticsearch, Logstash, FileBeat, and Kibana to streamline log error 
+                  identification and save hundreds of labor hours each year.
 									<br/>
-									<span>•</span> Created the Java Elasticsearch Client that has the ability to generate the report by the time, 
-                  logging levels and full-text search, as well as having the option to save the report locally or sharing via Email.
+									<span>•</span> Created the Java Elasticsearch Client to enable report generation, saving, 
+                  and search by time and logging level, enabling greater information sharing between the developers and clients.
                 </p>
 							</div>
             </div>
             <div className="row item">
               <div className="twelve columns">
                 <h3><a href="https://www.ambii.io/">Ambii</a></h3>
-                <p className="info">Web Developer<span>•</span> <em className="date">Sep 2018 - May 2018</em></p>
+                <p className="info">Front-end Engineer<span>•</span> <em className="date">Sep 2018 - May 2018</em></p>
                 <p>
-									<span>•</span> Enhanced the capability and design of the social music jukebox platform 
-									by coding features such as navigation, user profile and recommended songs using HTML, CSS, TypeScript and Angular 6.
+									<span>•</span> Enhanced the functionality and overall design of the social 
+                  music jukebox platform by coding features such as navigation, user profiles,
+                  and recommended songs using HTML, CSS, TypeScript and Angular 6.
 									<br/>
-									<span>•</span> Worked closely with the team to improve the testing suite using Jasmine and Karma.
+									<span>•</span> Partnered with the UI/UX designed to rebuild the homepage, 
+                  improving user experience and lead generation.
 									<br/>
-									<span>•</span> Shortened development update cycle to release important features faster.
-									<br/>
-									<span>•</span> Improved user experience by rebuilding the homepage alongside the UI/UX designer
+									<span>•</span> Streamlined testing and improved code coverage by improving
+                   the test suite using Jasmine and Karma.
                 </p>
 							</div>
             </div>
@@ -83,19 +90,20 @@ export default class Resume extends Component{
           </div>
           <div className="nine columns main-col">
             <p>
-						<strong>Programming Language</strong>: Java, C++, HTML/HTML5, CSS/CSS3, JavaScript (ES6) 
+						<strong>Engineering</strong>: Coding & Architecture, Testing & Code Coverage, Software Quality, Data Structures, Algorithm
+            Development, OOP, Database Management, Scalability, Performance, Reliability, Documentation.
 						<br/>
-						<strong>Web</strong>: Angular 6+, ReactJS, NodeJS, TypeScript, RESTful API, HTTP/HTTPS, MySQL 
+						<strong>Languages</strong>:  Java, C/C++, SQL, HTML5, CSS3, JavaScript, Python.
 						<br/>
-						<strong>Tools</strong>: NPM, Git, GitHub, Gulp, Microsoft Office, Chrome/Firefox Developer Tools
+						<strong>Frameworks / Technologies</strong>:  Angular 6+, React/React Native, Node.js, Express.js, Elasticsearch, Logstash,
+            Kibana, Postman, AWS, Firebase, Flask.
             </p>
             <div className="bars">
               <ul className="skills">
-                <li><span className="bar-expand css" /><em>CSS/CSS3</em></li>
-                <li><span className="bar-expand html5" /><em>HTML/HTML5</em></li>
                 <li><span className="bar-expand es6" /><em>JavaScript(ES6)</em></li>
                 <li><span className="bar-expand angular" /><em>Angular</em></li>
                 <li><span className="bar-expand java" /><em>Java</em></li>
+                <li><span className="bar-expand python" /><em>Python</em></li>
               </ul>
             </div>
           </div> 
