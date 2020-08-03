@@ -9,6 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1"
   },
   "scripts": {
@@ -33,6 +34,9 @@
     ]
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.9.0"
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.1.0"
   }
 }

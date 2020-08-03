@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './resume.css';
+
 export default class Resume extends Component{
   render() {
     return (
@@ -14,6 +16,9 @@ export default class Resume extends Component{
               <div className="twelve columns">
                 <h3>San Jose State University</h3>
                 <p className="info">B.S. Degree in Software Engineering <span>•</span> <em className="date">Dec 2020</em></p>
+                <p> Related Coursework: IoT Platforms, Data Structure and Algorithms, Computer Networks, Software Engineering
+                    Process Management, Operating Systems, Software Quality Engineering, Object Oriented Programming, 
+                    Introduction to Artificial Intelligence, Database Management Systems, Information Security</p>
               </div>
             </div>
           </div>
@@ -27,19 +32,26 @@ export default class Resume extends Component{
           <div className="row item">
               <div className="twelve columns">
                 <h3><a href="https://www.intel.com/">Intel Corporation</a></h3>
-                <p className="info">Software Engineering Intern<span>•</span> <em className="date">June 2019 - August 2019</em></p>
-                <p>
-									<span>•</span> Built a Flask Microservice API under Docker Container that run within the 
-                  internal network, documented using Swagger.
-                </p>
+                <p className="info">Software Engineering Intern<span>•</span> <em className="date">Jan 2020 - present</em></p>
+                <div className="job-description">
+                  <p className="resume-highlight"><span>•</span> Awarded Division Recognition Award in Quarter Two.</p>
+                  <span>•</span> Built Flask RESTful microservices with swagger documentation under Docker, 
+                  that successfully migrated into the production.
+                  <br/>
+                  <span>•</span> Ensured the stability and reliability by performing unit testing and 
+                  integration testing with PyTest.
+                  <br/>
+                  <span>•</span> Implemented RESTful microservice into Cobbler DHCP Module, shorten the 
+                  time adding new subnets to the DNS by 15 minutes.
+                </div>
 							</div>
             </div>
           <div className="row item">
               <div className="twelve columns">
                 <h3><a href="https://www.moodysanalytics.com/">Moody's Analytics</a></h3>
                 <p className="info">Software Engineering Intern<span>•</span> <em className="date">June 2019 - August 2019</em></p>
-                <p>
-									<span>•</span> Built a hotfix packager generator to reduce the time required 
+                <div className="job-description">
+									<span>•</span> Built a hotfix package generator to reduce the time required 
                   to finish hotfix requests from 15 to 5 minutes.
 									<br/>
 									<span>•</span> Collected and analyzed the log files produced by customer software 
@@ -48,14 +60,14 @@ export default class Resume extends Component{
 									<br/>
 									<span>•</span> Created the Java Elasticsearch Client to enable report generation, saving, 
                   and search by time and logging level, enabling greater information sharing between the developers and clients.
-                </p>
+                </div>
 							</div>
             </div>
             <div className="row item">
               <div className="twelve columns">
                 <h3><a href="https://www.ambii.io/">Ambii</a></h3>
                 <p className="info">Front-end Engineer<span>•</span> <em className="date">Sep 2018 - May 2018</em></p>
-                <p>
+                <div className="job-description">
 									<span>•</span> Enhanced the functionality and overall design of the social 
                   music jukebox platform by coding features such as navigation, user profiles,
                   and recommended songs using HTML, CSS, TypeScript and Angular 6.
@@ -65,7 +77,7 @@ export default class Resume extends Component{
 									<br/>
 									<span>•</span> Streamlined testing and improved code coverage by improving
                    the test suite using Jasmine and Karma.
-                </p>
+                </div>
 							</div>
             </div>
             <div className="row item">
@@ -90,13 +102,11 @@ export default class Resume extends Component{
           </div>
           <div className="nine columns main-col">
             <p>
-						<strong>Engineering</strong>: Coding & Architecture, Testing & Code Coverage, Software Quality, Data Structures, Algorithm
-            Development, OOP, Database Management, Scalability, Performance, Reliability, Documentation.
+						<strong>Languages</strong>:  Java, Python, SQL, HTML/CSS/JavaScript
 						<br/>
-						<strong>Languages</strong>:  Java, C/C++, SQL, HTML5, CSS3, JavaScript, Python.
-						<br/>
-						<strong>Frameworks / Technologies</strong>:  Angular 6+, React/React Native, Node.js, Express.js, Elasticsearch, Logstash,
-            Kibana, Postman, AWS, Firebase, Flask.
+						<strong>Frameworks / Libraries</strong>:  Angular 6+, React/React Native, Node.js, Express.js, Flask
+            <br/>
+            <strong>Tools</strong>: Elasticsearch/Logstash/Kibana, Postman, Firebase, Kubernetes, Docker
             </p>
             <div className="bars">
               <ul className="skills">
