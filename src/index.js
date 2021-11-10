@@ -1,27 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 import './index.css';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import App from './App';
-import Covid from './components/covid19/covid';
-import * as serviceWorker from './serviceWorker';
+import reportWebVitals from './reportWebVitals';
 
-const routing = (
-    <Router>
-      <div>
-        <Route exact path="/" component={App} />
-        <Route exact path="/JS-Projects" render={() => {
-            return (
-                <div>
-                    <Link to="/JS-Projects/help">help</Link>
-                </div>
-            );
-        }} />
-        <Route exact path="/covid-19" component={Covid} />
-      </div>
+ReactDOM.render(
+  <React.StrictMode>
+    <Router >
+      <App />
     </Router>
-  )
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-ReactDOM.render(routing, document.getElementById('root'));
-
-serviceWorker.unregister();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
